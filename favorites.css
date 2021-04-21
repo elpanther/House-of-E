@@ -7,6 +7,12 @@
   */
 /*----------------------------------------------------------------------------------*/
 
+body {
+  background-color: #D1ECFF;
+  font-family: 'Poppins', sans-serif;
+}
+/*----------------------------------------------------------------------------------*/
+
  /* Nav-bar */
 ul{
   list-style-type: none;
@@ -75,7 +81,8 @@ li.dropdown {
 /*----------------------------------------------------------------------------------*/ 
   
 /* CONTAINER */
-  .container {
+  .container-shadow {
+    border: 1px solid rgb(169, 169, 169, 0.12);
     width: 90%;
     margin: 0 auto; 
     margin-top: 20px;
@@ -87,19 +94,20 @@ li.dropdown {
 
  /*FAVORITES DROPDOWN*/
  .dropbutton {
-  background-color: #D1ECFF;
+  border: 2px solid rgb(0, 74, 148, 0.9);
+  background-color: rgb(0, 74, 148, 0.8);
   margin: auto;
   width: 90%;
   position: absolute;
   color: black;
   padding: 16px;
   font-size: 25px;
-  border: none;
   cursor: pointer;
 }
 
 .dropbutton:hover, .dropbutton:focus {
-  background-color: #D1ECFF;
+  background-color: rgb(0, 74, 148, 0.8);
+  border: 2px solid rgba(0, 0, 0, 0.9);
 }
 
 .dropdown a:hover {background-color: #ddd;}
@@ -108,9 +116,9 @@ li.dropdown {
 
 .dropdown-favorites {
   display: none;
-  margin-top: 60px;
+  margin-top: 65px;
   position: absolute;
-  background-color: #FFFFFF;
+  background-color: rgb(0, 74, 148, 0.10);
   /* border:2px solid #000000; */
   width: 90%;
   min-width: 160px;
@@ -118,7 +126,7 @@ li.dropdown {
   z-index: 1;
 }
 .dropdown-favorites a {
-  color: #000000;
+  color: #111;
   padding: 12px 16px;
   text-decoration: none;
   display: block;
@@ -127,7 +135,10 @@ li.dropdown {
 .dropdown:hover .dropdown-favorites {
   display: block;
 }
-.dropdown-favorites a:hover {background-color: #004A94;}
+.dropdown-favorites a:hover {
+  background-color: #FFFFFF;
+  border: 2px solid rgba(0, 0, 0, 0.9);
+}
 /*----------------------------------------------------------------------------------*/
 
 /* DIV CONTAINER */
@@ -135,7 +146,6 @@ li.dropdown {
     width: 80%;
     margin: 0 auto; 
     margin-top: 30px;
-    /* border: 2px solid #000080; */
     padding: 2% 4%;
     background-color: #F4F1F1;
 }
