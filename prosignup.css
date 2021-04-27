@@ -134,17 +134,16 @@ input[type=submit]{
 }
 .input-container{
   width: 30%;
-  margin-top: 20px;
+  margin-top: 25px;
   border-radius: 15px;
   background-color: #D1ECFF;
   border: 10px solid grey;
-  padding: 20px;
-  margin-bottom: 20px;
+  padding: 10px;
 }
 input[type=text]{
   width: 95%;
-  padding: 12px 20px;
-  margin: 8px 0;
+  padding: 6px 6px;
+  margin: 4px 0px;
   display: block;
   background-color: white;
   border: 1px solid #004A94;
