@@ -119,6 +119,10 @@ li.dropdown {
   align-self: end;
 }
 
+.learn-more a{
+  text-decoration: none;
+}
+
 .college-image{
   background-color: #FFFFFF;
 }
