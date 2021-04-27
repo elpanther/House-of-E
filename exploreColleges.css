@@ -100,7 +100,7 @@ li.dropdown {
 /*GRID CONTAINER*/
 .grid-container{
   display: grid;
-  grid-template-columns: 600px 600px;
+  grid-template-columns: auto auto auto;
   align-content: space-evenly;
   justify-content: center;
   column-gap: 10px;
@@ -116,8 +116,34 @@ li.dropdown {
   font-size: 18px;
   padding: 15px;
   width: 60%;
+  align-self: end;
+}
+
+.learn-more a{
+  text-decoration: none;
 }
 
 .college-image{
   background-color: #FFFFFF;
+}
+
+img {
+  border: 2px solid rgb(51, 51, 51);
+}
+
+/*----------------------------------------------------------------------------------*/
+.flex-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.flex-item1{
+  margin: 10px 5px 0 25px; 
+  width: min-content;
+}
+
+.flex-item2{
+  margin: 10px 5px 0 25px;
+  width: min-content;
 }
