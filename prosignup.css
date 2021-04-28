@@ -72,6 +72,7 @@ display: block;
 .input-container{
   width: 30%;
   margin-top: 25px;
+  margin-bottom: 25px;
   border-radius: 15px;
   background-color: #D1ECFF;
   border: 10px solid #333;
@@ -164,5 +165,42 @@ textarea {
 }
 body{
   background-color: #D1ECFF;
+}
+.cs {
+  font-size: 25px;
+  color: white;
+  margin-right: 350px;
+}
+.copyright {
+  background-color: #333;
+  padding: 30px;
+  border: 2px solid black;
+  display: flex;
+  align-items: center;
+}
+.copyClass {
+  margin: 3px;
+  font-size: 20px;
+  color: white;
+}
+.copyClass:hover {
+  color: cyan;
+}
+.li-list {
+  display: flex;
+  flex-direction: column;
+}
+.scndLi {
+  display: flex;
+  flex-direction: column;
+  margin-left: 40px;
+}
+.copyClass2 {
+  margin: 3px;
+  font-size: 20px;
+  color: white;
+}
+.copyClass2:hover {
+  color: cyan;
 }
 
