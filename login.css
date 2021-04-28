@@ -1,5 +1,5 @@
 body{
-    background-color: #D1ECFF;
+  background-color: #D1ECFF;
 }
 /* Nav-bar */
 ul{
@@ -70,49 +70,49 @@ li.dropdown {
 .dropdown-content a:hover {background-color: #f1f1f1;}
 /* Body */
 .input-container{
-    width: 30%;
-    margin-top: 25px;
-    border-radius: 15px;
-    background-color: #D1ECFF;
-    border: 10px solid #333;
-    padding: 40px;
+  width: 30%;
+  margin-top: 25px;
+  border-radius: 15px;
+  background-color: #D1ECFF;
+  border: 10px solid #333;
+  padding: 40px;
 }
 input[type=text]{
-    width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    display: block;
-    background-color: white;
-    border: 1px solid #004A94;
-    border-radius: 10px;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: block;
+  background-color: white;
+  border: 1px solid #004A94;
+  border-radius: 10px;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
 }
 input[type=password]{
-    width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    display: block;
-    background-color: white;
-    border: 1px solid #004A94;
-    border-radius: 10px;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: block;
+  background-color: white;
+  border: 1px solid #004A94;
+  border-radius: 10px;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
 }
 input[type=submit]{
-    padding: 6px 10px;
-    font-family: 'Poppins', sans-serif;
-    color: white;
-    font-weight: bold;
-    background-color: #004A94;
-    border: 5px solid #333;
-    border-radius: 4px;
-    cursor: pointer;
+  padding: 6px 10px;
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  font-weight: bold;
+  background-color: #004A94;
+  border: 5px solid #333;
+  border-radius: 4px;
+  cursor: pointer;
 
 }
 
 h1{
-    font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 hr{
     border: 2px solid #004A94;
