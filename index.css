@@ -12,6 +12,7 @@ ul{
 }
 li a{
   display: block;
+  height: 21px;
   color: white;
   text-align: center;
   padding: 14px 16px;
@@ -21,7 +22,8 @@ li {
   float: left;
 }
 li a:hover:not(.active), .dropdown:hover .dropbtn {
-  background-color: #111;
+  background-color: #004A94;
+  height: 21px;
 }
 .active{
   background-color: #D1ECFF;
@@ -81,4 +83,13 @@ li.dropdown {
     font-size: 50px;
     width: 300px;
   }
-  
+  /*footer*/
+  .cs {
+    font-size: 25px;
+    color: white;
+  }
+  .copyright {
+    background-color: grey;
+    padding: 40px;
+    border: 2px solid black;
+  }
