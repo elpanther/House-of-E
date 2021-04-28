@@ -119,3 +119,14 @@ hr{
     color: #004A94;
 }
 
+/*footer*/
+.cs {
+  font-size: 25px;
+  color: white;
+}
+
+.copyright {
+  background-color: grey;
+  padding: 40px;
+  border: 2px solid black;
+}
