@@ -104,8 +104,8 @@ li.dropdown {
   grid-template-columns: auto auto auto;
   align-content: space-evenly;
   justify-content: center;
-  column-gap: 1px;
-  row-gap: 1px;
+  column-gap: 10px;
+  row-gap: 5px;
   place-self: center;
 }
 /*----------------------------------------------------------------------------------*/
