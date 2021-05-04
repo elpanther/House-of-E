@@ -70,15 +70,25 @@ body {
 
 
 
+
   .firsth1 {
       font-size: 50px;
       padding: 5px;
       text-align: center;
       margin-top: 50px;
       text-shadow: 1px 1px blue;
-
   }
-
+  .firsth2 {
+    font-size: 30px;
+  }
+  .firstTip {
+    text-align: center;
+    margin-top: 100px;
+  }
+  .box {
+    height: 250px;
+    width: 400px;
+  }
   .img {
       height: 300px;
       width: 400px;
