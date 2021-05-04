@@ -88,10 +88,16 @@ body {
   .box {
     height: 250px;
     width: 400px;
+    float: right;
+    margin-right: 30px;
+    margin-left: 20px;
   }
   .img {
       height: 300px;
       width: 400px;
+  }
+  .totbP {
+    font-size: 30px;
   }
 
   .img-cont {
