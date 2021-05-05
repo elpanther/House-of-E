@@ -6,34 +6,42 @@
         <title>Mock Website</title>
         <link href="exploreColleges.css" rel="stylesheet" type="text/css" />
     </head>
-        <!-- Nav Bar -->
-        <header>
-          <div class="header-container">
-            <nav>
-              <ul>
-                <li><a class="active" href="#"><img src="college1.png" width="200" height="20" alt="Computer Hope" /></a></li>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="exploreColleges.html">Browse Colleges</a></li>
-                <li><a href="">Job Search</a></li>
-                <!-- dropdown -->
-                <li class="dropdown">
-                  <a href="javascript:void(0)"class="drop-btn">Additional Resources</a>
-                  <div class="dropdown-content">
-                    <a href="#">Link 1</a>
-                    <a href="#">Link 2</a>
-                    <a href="#">Link 3</a>
-                  </div>
-                </li>
-                <li style="float: right"><a href="login.html">Login</a></li>
-                <li style="float: right"><a href="">Sign Up</a></li>
-              </ul>
-            </nav>
-          </div>
-        </header>
-
+       <!-- Nav Bar -->
+       <header>
+        <div class="header-container">
+          <nav>
+            <ul>
+              <li><a class="active" href="#"><img src="college1.png" width="200" height="20" alt="Computer Hope" /></a></li>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="exploreColleges.html">Browse Colleges</a></li>
+              <li><a href="favorites.html">Favorites</a></li>
+              <li><a href="">Job Search</a></li>
+              <!-- dropdown -->
+              <li class="dropdown">
+                <a href="javascript:void(0)"class="drop-btn">Additional Resources</a>
+                <div class="dropdown-content">
+                  <a href="#">Link 1</a>
+                  <a href="#">Link 2</a>
+                  <a href="#">Link 3</a>
+                </div>
+              </li>
+              <li style="float: right"><a href="login.html">Login</a></li>
+              <li style="float: right"><a href="">Sign Up</a></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+<body>
     <h1 style="text-align: center">Explore Colleges!</h1>
-
-        <div></div>
+      <div class="county-dropdown" style="margin: 0 auto;">
+        <select>
+          <option value="0">Select a County</option>
+          <option value="1">New Castle</option>
+          <option value="2">Kent</option>
+          <option value="3">Sussex</option>
+        </select>
+      </div>
+             
 
       <div class="grid-container">
         <div class="card-container">
@@ -70,7 +78,7 @@
         </div>
 
         <div class="card-container";">
-          <img src="./CollegePics/Wesley-College-Logo.png" class="college-image" style= "width:300px; height:150px;">
+          <img src="./CollegePics/Wesley-College-Logo.png" class="college-image college-img" style= "width:300px; height:150px;">
           <h1 class="college-name">Wesley College</h1>
           <p class="location">Dover, DE</p>
           <p class="private-public">Private</p>
@@ -89,7 +97,7 @@
       <div class="flex-container" style="margin-bottom: 20px;">
 
         <div class="card-container flex-item1">
-          <img src="./CollegePics/DelTech.png" class="college-img" style= "width:300px; height:150px;">
+          <img src="./CollegePics/DelTech.png" style= "width:300px; height:150px;">
           <h1 class="college-name">Delaware Technical Community College</h1>
           <p class="location">Dover, Georgetown, Newark, and Wilmington</p>
           <p class="private-public">Public</p>
@@ -97,7 +105,7 @@
         </div>
 
         <div class="card-container flex-item2"> 
-          <img src="./CollegePics/Widener.jpg" class="college-img" style= "width:300px; height:150px;">
+          <img src="./CollegePics/Widener.jpg" style= "width:300px; height:150px;">
           <h1 class="college-name">Widener University School of Law</h1>
           <p class="location">Wilmington, DE</p>
           <p class="private-public">Private</p>
@@ -110,7 +118,7 @@
           <nav>
             <div class='footerDiv'>
               <ul class='copyright'>
-                <li class='cs'>College Scout&copy;</li>
+                <li class='cs'>College Scout</li>
                 <div class='li-list'>
                   <a href=""><li class='copyClass'>Home</li></a>
                   <a href=""><li class='copyClass'>Browse Colleges</li></a>
