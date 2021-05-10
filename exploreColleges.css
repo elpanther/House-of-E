@@ -1,6 +1,5 @@
 body {
   background-color: #D1ECFF;
-  font-family: 'Poppins', sans-serif;
 }
 /*----------------------------------------------------------------------------------*/
 
@@ -69,7 +68,7 @@ body {
   .dropdown:hover .dropdown-content {
     display: block;
   }
-  .dropdown-content a:hover {background-color: #F1F1F1;}  
+  .dropdown-content a:hover {background-color: #F1F1F1;}
 /*----------------------------------------------------------------------------------*/  
   
 /* CONTAINER */
@@ -130,9 +129,9 @@ body {
   background-color: #FFFFFF;
 }
 
-img {
+/* img {
   border: 2px solid rgb(51, 51, 51);
-}
+} */
 
 /*----------------------------------------------------------------------------------*/
 .flex-container{
