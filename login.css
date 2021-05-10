@@ -123,10 +123,39 @@ hr{
 .cs {
   font-size: 25px;
   color: white;
+  margin-right: 350px;
 }
 
 .copyright {
-  background-color: grey;
-  padding: 40px;
+  background-color: #333;
+  padding: 30px;
   border: 2px solid black;
+  display: flex;
+  align-items: center;
 }
+.copyClass {
+  margin: 3px;
+  font-size: 20px;
+  color: white;
+}
+.copyClass:hover {
+  color: cyan;
+}
+.li-list {
+  display: flex;
+  flex-direction: column;
+}
+.scndLi {
+  display: flex;
+  flex-direction: column;
+  margin-left: 40px;
+}
+.copyClass2 {
+  margin: 3px;
+  font-size: 20px;
+  color: white;
+}
+.copyClass2:hover {
+  color: cyan;
+}
+
