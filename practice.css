@@ -109,6 +109,18 @@ body {
       justify-content: center;
   }
 
+  .totb ul {
+    display: flex;
+    flex-direction: column;
+    background-color: transparent;
+    list-style-type: circle;
+    margin-left: 50px;
+  }
+  .totb ul li {
+    margin: 20px;
+    font-size: 30px;
+  }
+
 
   /*second tip*/
   .sAs {
