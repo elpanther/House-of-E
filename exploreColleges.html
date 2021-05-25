@@ -14,7 +14,7 @@
               <li><a class="active" href="#"><img src="college1.png" width="200" height="20" alt="Computer Hope" /></a></li>
               <li><a href="index.html">Home</a></li>
               <li><a href="exploreColleges.html">Browse Colleges</a></li>
-              <li><a href="">Job Search</a></li>
+              <li><a href="jobSearch.html">Job Search</a></li>
               <!-- dropdown -->
               <li class="dropdown">
                 <a href="javascript:void(0)"class="drop-btn">Additional Resources</a>
@@ -33,68 +33,64 @@
 
 <body>
   <!--View The favorites page-->
-  <div class="flex-container" style="float: right;">
+  <!-- <div class="flex-container" style="float: right;">
     <h3 class="h3">View Your Favorite Colleges!</h3>
-    <button class="btn" style= "margin-top: 10px;"><a href="favorites.html">Favorites</a></button>
-  </div>
+    <button class="btn" style= "margin-top: 10px; "><a href="favorites.html">Favorites</a></button>
+  </div> -->
   
-    <h1 style="text-align: center; margin-top: 100px;">Explore Colleges!</h1>
-      <div class="county-dropdown" style="margin: 0 auto;">
-        <select style="margin: 0 auto;">
+    <h1 style="text-align: center;">Explore Colleges!</h1>
+      <!-- <div class="county-dropdown" style="position: relative;">
+        <select id="countyDropdown" style="margin: 0 auto;">
           <option value="0">Select a County</option>
           <option value="1">New Castle</option>
           <option value="2">Kent</option>
           <option value="3">Sussex</option>
         </select>
-      </div>
+      </div> -->
              
 
-      <div class="grid-container">
+    <div id="cont">
+      <div class="grid-container" id="cont">
         <div class="card-container">
           <img src="./CollegePics/UD.image.jpg" class="college-img" style= "width:300px; height:150px;">
           <h1 class="college-name">University of Delaware</h1>
-          <p class="location">Newark, DE</p>
           <p class="private-public">Public</p>
-          <button class="learn-more"><a href="UDCollege.html">Learn More</a></button>
+          <button class="learn-more">
+            <a href="https://www.wilmu.edu/tuition/index.aspx" target=”_blank >Learn More!</a>
+          </button>
         </div>
 
-        <div class="card-container">
+        <div class="card-container" id="item-1">
           <img src="./CollegePics/DelState.jpg" class="college-img" style= "width:300px; height:150px;">
           <h1 class="college-name">Delaware State University</h1>
-          <p class="location">Dover, DE</p>
           <p class="private-public">Public</p>
           <button class="learn-more"><a href="delstate.html">Learn More</a></button>
         </div>
 
-        <div class="card-container">
+        <div class="card-container" id="item-2" style="width: fit-content;">
           <img src="./CollegePics/standard.png" class="college-img" style= "width:300px; height:150px;">
           <h1 class="college-name">Wilmington<br>University</h1>
-          <p class="location">New Castle, Wilson Graduation Center,<br>Brandywine, Dover, Dover Airforce Base, Georgetown</p>
-
           <p class="private-public">Private</p>
           <button class="learn-more"><a href="wilmU.html">Learn More</a></button>
         </div>
 
-        <div class="card-container">
+        <div class="card-container" id="item-3">
           <img src="./CollegePics/Goldey_Beacom.jpg" class="college-img" style= "width:300px; height:150px;">
           <h1 class="college-name">Goldey-Beacom College</h1>
-          <p class="location">Pike Creek Valley, DE</p>
           <p class="private-public">Private</p>
           <button class="learn-more"><a href="goldeybeacom.html">Learn More</a></button>
         </div>
 
-        <div class="card-container";">
+        <div class="card-container" id="item-4">
           <img src="./CollegePics/Wesley-College-Logo.png" class="college-image college-img" style= "width:300px; height:150px;">
           <h1 class="college-name">Wesley College</h1>
-          <p class="location">Dover, DE</p>
           <p class="private-public">Private</p>
           <button class="learn-more"><a href="wesley.html">Learn More</a></button>
         </div>
 
-        <div class="card-container">
+        <div class="card-container" id="item-5" style="width: fit-content;">
           <img src="./CollegePics/DCAD.png" class="college-img" style= "width:300px; height:150px;">
           <h1 class="college-name">Delaware College of<br> Art and Design</h1>
-          <p class="location">Wilmington, DE</p>
           <p class="private-public">Private</p>
           <button class="learn-more"><a href="DCAD.html">Learn More</a></button>
         </div>
@@ -105,7 +101,6 @@
         <div class="card-container flex-item1">
           <img src="./CollegePics/DelTech.png" style= "width:300px; height:150px;">
           <h1 class="college-name">Delaware Technical Community College</h1>
-          <p class="location">Dover, Georgetown, Newark, and Wilmington</p>
           <p class="private-public">Public</p>
           <button class="learn-more"><a href="deltech.html">Learn More</a></button>
         </div>
@@ -113,12 +108,12 @@
         <div class="card-container flex-item2"> 
           <img src="./CollegePics/Widener.jpg" style= "width:300px; height:150px;">
           <h1 class="college-name">Widener University School of Law</h1>
-          <p class="location">Wilmington, DE</p>
           <p class="private-public">Private</p>
           <button class="learn-more"><a href="widener.html">Learn More</a></button>
         </div>
       </div>
-        <script src=""></script>
+    </div>
+        <script src="exploreColleges.js"></script>
 
         <footer>
           <nav>
