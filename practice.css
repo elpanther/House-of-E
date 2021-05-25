@@ -165,6 +165,10 @@ body {
   float: right;
   margin-right: 30px;
   margin-left: 30px;
+  transition: transform .3s;
+}
+.hitbp img:hover {
+  transform: rotate(20deg);
 }
 .hitbp p {
   font-size: 30px;
@@ -185,6 +189,10 @@ body {
   float: left;
   margin-right: 30px;
   margin-left: 30px;
+  transition: transform .3s
+}
+.mistakes img:hover {
+  transform: rotate(-20deg);
 }
 .mistakes p {
   font-size: 30px;
@@ -206,6 +214,10 @@ body {
   float: right;
   margin-right: 30px;
   margin-left: 30px;
+  transition: transform .3s;
+}
+.at img:hover {
+  transform: rotate(20deg);
 }
 .at p {
   font-size: 30px;
