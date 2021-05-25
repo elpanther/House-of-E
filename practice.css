@@ -70,7 +70,7 @@ body {
   .dropdown-content a:hover {background-color: #F1F1F1;}
 
 
-
+          /*MAIN CONTENT*/
 
   .firsth1 {
       font-size: 50px;
@@ -94,6 +94,10 @@ body {
     float: right;
     margin-right: 30px;
     margin-left: 30px;
+    transition: transform .3s;
+  }
+  .box:hover {
+    transform: rotate(20deg);
   }
   .img {
       height: 300px;
@@ -107,6 +111,18 @@ body {
   .img-cont {
       display: flex;
       justify-content: center;
+  }
+
+  .totb ul {
+    display: flex;
+    flex-direction: column;
+    background-color: transparent;
+    list-style-type: circle;
+    margin-left: 50px;
+  }
+  .totb ul li {
+    margin: 20px;
+    font-size: 30px;
   }
 
 
@@ -124,7 +140,10 @@ body {
     width: 400px;
     margin-right: 30px;
     margin-left: 30px;
-
+    transition: transform .3s
+  }
+  .resume2:hover {
+    transform: rotate(-20deg);
   }
   .sAs-p {
     font-size: 30px;
@@ -146,6 +165,10 @@ body {
   float: right;
   margin-right: 30px;
   margin-left: 30px;
+  transition: transform .3s;
+}
+.hitbp img:hover {
+  transform: rotate(20deg);
 }
 .hitbp p {
   font-size: 30px;
@@ -166,6 +189,10 @@ body {
   float: left;
   margin-right: 30px;
   margin-left: 30px;
+  transition: transform .3s
+}
+.mistakes img:hover {
+  transform: rotate(-20deg);
 }
 .mistakes p {
   font-size: 30px;
@@ -187,6 +214,10 @@ body {
   float: right;
   margin-right: 30px;
   margin-left: 30px;
+  transition: transform .3s;
+}
+.at img:hover {
+  transform: rotate(20deg);
 }
 .at p {
   font-size: 30px;
