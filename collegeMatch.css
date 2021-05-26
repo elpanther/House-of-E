@@ -118,6 +118,9 @@ body {
   .banner button {
       width: 100px;
       margin-top: 30px;
+      border-radius: 10px;
+      background-color: blue;
+      color: white;
   }
   .banner button:hover {
       cursor: pointer;
